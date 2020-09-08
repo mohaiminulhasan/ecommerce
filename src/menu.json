@@ -1,0 +1,127 @@
+[
+  {
+    "id": 1,
+    "name": "Food",
+    "slug": "food",
+    "parent": {
+      "id": null,
+      "slug": null
+    },
+    "path": "/food",
+    "children": [
+      {
+        "id": 3,
+        "name": "Fruits & Vegetables",
+        "slug": "fruits-vegetables",
+        "parent": {
+          "id": 1,
+          "slug": "food"
+        },
+        "path": "/fruits-vegetables",
+        "children": [
+          {
+            "id": 5,
+            "name": "Fresh Fruits",
+            "slug": "fresh-fruits",
+            "parent": {
+              "id": 3,
+              "slug": "fruits-vegetables"
+            },
+            "path": "/fresh-fruits",
+            "children": []
+          },
+          {
+            "id": 10,
+            "name": "Fresh Vegetables",
+            "slug": "fresh-vegetables",
+            "parent": {
+              "id": 3,
+              "slug": "fruits-vegetables"
+            },
+            "path": "/fresh-vegetables",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Breakfast",
+        "slug": "breakfast",
+        "parent": {
+          "id": 1,
+          "slug": "food"
+        },
+        "path": "/breakfast",
+        "children": [
+          {
+            "id": 7,
+            "name": "Cereals",
+            "slug": "cereals",
+            "parent": {
+              "id": 4,
+              "slug": "breakfast"
+            },
+            "path": "/cereals",
+            "children": []
+          },
+          {
+            "id": 11,
+            "name": "Jam & Spreads",
+            "slug": "jam-spreads",
+            "parent": {
+              "id": 4,
+              "slug": "breakfast"
+            },
+            "path": "/jam-spreads",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Pet Care",
+    "slug": "pet-care",
+    "parent": {
+      "id": null,
+      "slug": null
+    },
+    "path": "/pet-care",
+    "children": [
+      {
+        "id": 6,
+        "name": "Dog Food",
+        "slug": "dog-food",
+        "parent": {
+          "id": 2,
+          "slug": "pet-care"
+        },
+        "path": "/dog-food",
+        "children": []
+      },
+      {
+        "id": 8,
+        "name": "Cat Food",
+        "slug": "cat-food",
+        "parent": {
+          "id": 2,
+          "slug": "pet-care"
+        },
+        "path": "/cat-food",
+        "children": []
+      },
+      {
+        "id": 9,
+        "name": "Pet Accessories",
+        "slug": "pet-accessories",
+        "parent": {
+          "id": 2,
+          "slug": "pet-care"
+        },
+        "path": "/pet-accessories",
+        "children": []
+      }
+    ]
+  }
+]

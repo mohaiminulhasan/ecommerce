@@ -1,0 +1,16 @@
+#menu_wrapper a {
+  cursor: pointer;
+  font-family: sans-serif;
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 2px 0 2px 0;
+}
+
+#menu_wrapper a.active {
+  font-weight: bolder;
+}
+
+#menu_wrapper a:hover {
+  background-color: lightgray;
+}
