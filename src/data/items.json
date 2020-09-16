@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Item 1",
+    "price": 10,
+    "quantity": 100,
+    "category": ["food", "fresh-fruits", "breakfast"]
+  },
+  {
+    "id": 2,
+    "name": "Item 2",
+    "price": 15,
+    "quantity": 95,
+    "category": ["food", "fresh-vegetables", "breakfast"]
+  },
+  {
+    "id": 3,
+    "name": "Item 3",
+    "price": 20,
+    "quantity": 90,
+    "category": ["food", "breakfast", "cereals"]
+  },
+  {
+    "id": 4,
+    "name": "Item 4",
+    "price": 25,
+    "quantity": 85,
+    "category": ["food", "breakfast", "jam-spreads"]
+  },
+  {
+    "id": 5,
+    "name": "Item 5",
+    "price": 30,
+    "quantity": 80,
+    "category": ["food", "pet-care", "dog-food"]
+  },
+  {
+    "id": 6,
+    "name": "Item 6",
+    "price": 35,
+    "quantity": 75,
+    "category": ["food", "pet-care", "cat-food"]
+  },
+  {
+    "id": 7,
+    "name": "Item 7",
+    "price": 40,
+    "quantity": 70,
+    "category": ["food", "pet-care", "pet-accessories"]
+  }
+]

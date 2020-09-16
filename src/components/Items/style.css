@@ -1,0 +1,29 @@
+#items {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.item {
+	margin: 10px 0 0 10px;
+	padding: 5px;
+
+	border: 1px dotted lightslategray;
+	border-radius: 5px;
+
+	width: 150px;
+	height: 200px;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.item_buttons {
+	width: calc(100% - 10px);
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
