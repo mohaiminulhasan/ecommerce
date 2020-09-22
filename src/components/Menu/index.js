@@ -65,7 +65,7 @@ export default function MenuWrapper({ menu }) {
     branch,
     setBranch,
     branchDict,
-    handleClick
+    handleClick,
   };
 
   /**
